@@ -11,3 +11,6 @@ void applyBinary(Mat &src, Mat &dest, int threshold) {
       else dest.at<uchar>(r,c) = 0;
     }
   }
+}
+
+#endif
