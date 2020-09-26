@@ -6,4 +6,4 @@
 #include <cmath>
 #include <opencv2/opencv.hpp>
 
-using 
+using namespace s
