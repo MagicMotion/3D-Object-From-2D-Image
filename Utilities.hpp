@@ -9,4 +9,4 @@
 using namespace std;
 using namespace cv;
 
-bo
+bool argsS1Ch
