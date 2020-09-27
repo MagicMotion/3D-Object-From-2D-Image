@@ -9,4 +9,5 @@
 using namespace std;
 using namespace cv;
 
-bool argsS1Check(int argc
+bool argsS1Check(int argc) {
+  if (
