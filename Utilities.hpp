@@ -10,4 +10,5 @@ using namespace std;
 using namespace cv;
 
 bool argsS1Check(int argc) {
-  if (
+  if (argc != 4) {
+ 
