@@ -11,4 +11,4 @@ using namespace cv;
 
 bool argsS1Check(int argc) {
   if (argc != 4) {
- 
+    cout << 
