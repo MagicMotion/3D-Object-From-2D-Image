@@ -12,4 +12,6 @@ using namespace cv;
 bool argsS1Check(int argc) {
   if (argc != 4) {
     cout << "usage: ./s1 <input original image> <threshold value> <output parameters file>" << endl;
-    return fals
+    return false;
+  }
+  r
