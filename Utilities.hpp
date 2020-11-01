@@ -14,4 +14,7 @@ bool argsS1Check(int argc) {
     cout << "usage: ./s1 <input original image> <threshold value> <output parameters file>" << endl;
     return false;
   }
-  return tru
+  return true;
+}
+
+bo
