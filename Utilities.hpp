@@ -17,4 +17,5 @@ bool argsS1Check(int argc) {
   return true;
 }
 
-bool argsS2Check(int 
+bool argsS2Check(int argc) {
+  if 
