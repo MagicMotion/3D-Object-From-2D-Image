@@ -18,4 +18,4 @@ bool argsS1Check(int argc) {
 }
 
 bool argsS2Check(int argc) {
-  if 
+  if (argc 
