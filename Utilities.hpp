@@ -18,4 +18,5 @@ bool argsS1Check(int argc) {
 }
 
 bool argsS2Check(int argc) {
-  if (argc 
+  if (argc != 6) {
+    c
