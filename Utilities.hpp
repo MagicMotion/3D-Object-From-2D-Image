@@ -19,4 +19,4 @@ bool argsS1Check(int argc) {
 
 bool argsS2Check(int argc) {
   if (argc != 6) {
-    cout << "u
+    cout << "usage: ./
