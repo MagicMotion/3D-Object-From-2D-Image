@@ -22,4 +22,7 @@ bool argsS2Check(int argc) {
     cout << "usage: ./s2 <input parameters file> <image 1> <image 2> <image 3> <output directions file>" << endl;
     return false;
   }
-  return
+  return true;
+}
+
+bo
