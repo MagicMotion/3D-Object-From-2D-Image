@@ -25,4 +25,4 @@ bool argsS2Check(int argc) {
   return true;
 }
 
-bo
+bool argsS3Che
