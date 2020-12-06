@@ -26,3 +26,4 @@ bool argsS2Check(int argc) {
 }
 
 bool argsS3Check(int argc) {
+  if (
