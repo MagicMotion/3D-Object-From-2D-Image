@@ -27,4 +27,4 @@ bool argsS2Check(int argc) {
 
 bool argsS3Check(int argc) {
   if (argc != 8) {
-    cout << "usage: ./s3 <input di
+    cout << "usage: ./s3 <input directions> <im
