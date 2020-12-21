@@ -33,4 +33,5 @@ bool argsS3Check(int argc) {
   return true;
 }
 
-bool argsS4C
+bool argsS4Check(int argc) {
+  
