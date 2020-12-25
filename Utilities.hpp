@@ -34,4 +34,4 @@ bool argsS3Check(int argc) {
 }
 
 bool argsS4Check(int argc) {
-  if (arg
+  if (argc != 7) 
