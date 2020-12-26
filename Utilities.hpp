@@ -34,4 +34,5 @@ bool argsS3Check(int argc) {
 }
 
 bool argsS4Check(int argc) {
-  if (argc != 7) 
+  if (argc != 7) {
+    cout <
