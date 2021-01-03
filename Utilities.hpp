@@ -35,4 +35,4 @@ bool argsS3Check(int argc) {
 
 bool argsS4Check(int argc) {
   if (argc != 7) {
-    cout << "usage: ./s4 <input directions> <image 1> <image 2> <image 3> <threshold> <output>
+    cout << "usage: ./s4 <input directions> <image 1> <image 2> <image 3> <threshold> <output>" << 
