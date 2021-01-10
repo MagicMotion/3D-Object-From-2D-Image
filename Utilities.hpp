@@ -38,3 +38,4 @@ bool argsS4Check(int argc) {
     cout << "usage: ./s4 <input directions> <image 1> <image 2> <image 3> <threshold> <output>" << endl;
     return false;
   }
+  return tr
