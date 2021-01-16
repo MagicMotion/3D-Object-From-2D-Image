@@ -41,4 +41,5 @@ bool argsS4Check(int argc) {
   return true;
 }
 
-bool imageValidityCheck
+bool imageValidityCheck(Mat &image) {
+  
