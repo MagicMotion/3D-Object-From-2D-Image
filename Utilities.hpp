@@ -42,4 +42,5 @@ bool argsS4Check(int argc) {
 }
 
 bool imageValidityCheck(Mat &image) {
-  if (!image.
+  if (!image.data) {
+  
