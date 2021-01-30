@@ -44,3 +44,5 @@ bool argsS4Check(int argc) {
 bool imageValidityCheck(Mat &image) {
   if (!image.data) {
     cout << "No image data " << endl;
+    return false;
+ 
