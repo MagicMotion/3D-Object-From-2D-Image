@@ -46,4 +46,6 @@ bool imageValidityCheck(Mat &image) {
     cout << "No image data " << endl;
     return false;
   }
-  return t
+  return true;
+}
+
