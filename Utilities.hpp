@@ -50,3 +50,4 @@ bool imageValidityCheck(Mat &image) {
 }
 
 vector<Point> getTRBLArrayOfSphere(Mat &image) {
+  Point t
