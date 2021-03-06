@@ -52,3 +52,4 @@ bool imageValidityCheck(Mat &image) {
 vector<Point> getTRBLArrayOfSphere(Mat &image) {
   Point top = Point(image.rows - 1, image.cols - 1);
   Point right = Point(image.rows - 1, 0);
+  Point bottom = P
