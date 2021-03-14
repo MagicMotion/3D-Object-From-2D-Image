@@ -55,4 +55,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
   Point bottom = Point(0, 0);
   Point left = Point(0, image.cols - 1);
 
-  int topEquiv = 
+  int topEquiv = 0;
+  int 
