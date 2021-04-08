@@ -61,4 +61,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
   int leftEquiv = 0;
 
   for (int r = 0; r < image.rows; r++) {
-    for (int c = 0; c < image.cols
+    for (int c = 0; c < image.cols; c++) {
+      
