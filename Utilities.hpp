@@ -64,4 +64,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
     for (int c = 0; c < image.cols; c++) {
       if (image.at<uchar>(r, c)) {
         if (r < top.x) {
-          top = Point(r, c);       // if high
+          top = Point(r, c);       // if higher than top
+  
