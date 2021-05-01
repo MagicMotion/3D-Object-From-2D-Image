@@ -68,4 +68,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
           topEquiv = 0;
         }
         if (c > right.y) {
-           right = P
+           right = Point(r, c)
