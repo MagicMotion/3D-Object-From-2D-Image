@@ -75,4 +75,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
            bottom = Point(r, c);  // if lower than bottom
            bottomEquiv = 0;
          }
-        if (c < left.y) 
+        if (c < left.y) {
+           left
