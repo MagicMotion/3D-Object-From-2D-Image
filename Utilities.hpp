@@ -76,4 +76,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
            bottomEquiv = 0;
          }
         if (c < left.y) {
-           left
+           left = Poin
