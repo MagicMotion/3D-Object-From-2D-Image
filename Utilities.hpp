@@ -77,3 +77,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
          }
         if (c < left.y) {
            left = Point(r, c);    // if more left
+           leftE
