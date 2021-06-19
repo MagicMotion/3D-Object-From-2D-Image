@@ -80,4 +80,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
            leftEquiv = 0;
          }
 
-        // count equal values to correct for true coordin
+        // count equal values to correct for true coordinates
+        if
