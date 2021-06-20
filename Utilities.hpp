@@ -81,4 +81,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
          }
 
         // count equal values to correct for true coordinates
-        if (r == t
+        if (r == top.x) topEqui
