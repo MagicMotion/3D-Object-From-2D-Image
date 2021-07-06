@@ -84,4 +84,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
         if (r == top.x) topEquiv++;
         if (c == right.y) rightEquiv++;
         if (r == bottom.x) bottomEquiv++;
-        if (c == 
+        if (c == left.y)
