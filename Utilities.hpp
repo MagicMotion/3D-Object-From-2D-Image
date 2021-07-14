@@ -89,4 +89,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
     }
   }
 
-  top.y += topEquiv
+  top.y += topEquiv / 2;
+  
