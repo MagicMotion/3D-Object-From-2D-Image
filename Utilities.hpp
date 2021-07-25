@@ -92,4 +92,5 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
   top.y += topEquiv / 2;
   right.x += rightEquiv / 2;
   bottom.y += bottomEquiv / 2;
-  left.x += leftEq
+  left.x += leftEquiv / 2;
+
