@@ -95,3 +95,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
   left.x += leftEquiv / 2;
 
   vector<Point> TRBL = {top, right, bottom, left};
+  return TRBL
