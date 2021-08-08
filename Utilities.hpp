@@ -99,4 +99,4 @@ vector<Point> getTRBLArrayOfSphere(Mat &image) {
 }
 
 Point getBrightestPoint(Mat &image) {
-  Point brightest 
+  Point brightest = Point(0, 0)
