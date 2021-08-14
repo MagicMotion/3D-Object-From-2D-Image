@@ -103,3 +103,4 @@ Point getBrightestPoint(Mat &image) {
 
   for (int r = 0; r < image.rows; r++) {
     for (int c = 0; c < image.cols; c++) {
+      if (
