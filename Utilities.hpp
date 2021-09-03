@@ -104,4 +104,5 @@ Point getBrightestPoint(Mat &image) {
   for (int r = 0; r < image.rows; r++) {
     for (int c = 0; c < image.cols; c++) {
       if (image.at<uchar>(r, c) > image.at<uchar>(brightest.x, brightest.y))
-        brightest = Po
+        brightest = Point(r, c);
+   
