@@ -108,4 +108,4 @@ Point getBrightestPoint(Mat &image) {
     }
   }
 
-  
+  return brigh
