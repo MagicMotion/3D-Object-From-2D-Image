@@ -111,4 +111,4 @@ Point getBrightestPoint(Mat &image) {
   return brightest;
 }
 
-double get
+double getP(int x, in
