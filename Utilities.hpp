@@ -116,4 +116,4 @@ double getP(int x, int y, int r) {
 }
 
 double getQ(int x, int y, int r) {
-  return -y / sq
+  return -y / sqrt(pow(r,
