@@ -120,4 +120,4 @@ double getQ(int x, int y, int r) {
 }
 
 Point3d getNormal(double p, double q) {
-  p /= sqr
+  p /= sqrt(pow(
