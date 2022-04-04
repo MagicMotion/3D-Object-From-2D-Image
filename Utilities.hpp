@@ -131,4 +131,4 @@ void scaleNormalWithBrightness(Point3d &normal, int brightness) {
   normal.z *= brightness;
 }
 
-void fillSourceMatrix(d
+void fillSourceMatrix(double matrix[
