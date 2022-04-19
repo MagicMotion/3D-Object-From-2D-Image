@@ -133,4 +133,4 @@ void scaleNormalWithBrightness(Point3d &normal, int brightness) {
 
 void fillSourceMatrix(double matrix[3][3], ifstream &directionsFile) {
   for (int i = 0; i < 9; i++)
-    directionsFile >>
+    directionsFile >> matrix[0][
