@@ -137,4 +137,4 @@ void fillSourceMatrix(double matrix[3][3], ifstream &directionsFile) {
   directionsFile.close();
 }
 
-bool isVisisbleInAllImage
+bool isVisisbleInAllImages(vector<Ma
