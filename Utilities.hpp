@@ -139,3 +139,4 @@ void fillSourceMatrix(double matrix[3][3], ifstream &directionsFile) {
 
 bool isVisisbleInAllImages(vector<Mat> images, int row, int col, int threshold) {
   for (auto image : images) {
+    if (i
