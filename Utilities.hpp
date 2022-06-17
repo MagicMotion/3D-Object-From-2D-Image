@@ -141,4 +141,5 @@ bool isVisisbleInAllImages(vector<Mat> images, int row, int col, int threshold) 
   for (auto image : images) {
     if (image.at<uchar>(row, col) < threshold) return false;
   }
-  retu
+  return true;
+}
