@@ -144,4 +144,5 @@ bool isVisisbleInAllImages(vector<Mat> images, int row, int col, int threshold) 
   return true;
 }
 
-double getDeterminant(double matrix[2][2
+double getDeterminant(double matrix[2][2]) {
+  return 
