@@ -150,4 +150,4 @@ double getDeterminant(double matrix[2][2]) {
 
 double getDeterminant(double matrix[3][3]) {
   return
-  matrix[0][0] *
+  matrix[0][0] * (matrix[0][4]
