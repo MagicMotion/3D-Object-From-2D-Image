@@ -152,4 +152,4 @@ double getDeterminant(double matrix[3][3]) {
   return
   matrix[0][0] * (matrix[0][4] * matrix[0][8] - matrix[0][5] * matrix[0][7]) -
   matrix[0][1] * (matrix[0][3] * matrix[0][8] - matrix[0][5] * matrix[0][6]) +
-  matrix[0][2] * (matrix[0][3] *
+  matrix[0][2] * (matrix[0][3] * matrix[0][7] 
