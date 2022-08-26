@@ -155,4 +155,5 @@ double getDeterminant(double matrix[3][3]) {
   matrix[0][2] * (matrix[0][3] * matrix[0][7] - matrix[0][4] * matrix[0][6]);
 }
 
-void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorMatrix[2][2]) 
+void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorMatrix[2][2]) {
+  int coun
