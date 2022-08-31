@@ -158,3 +158,4 @@ double getDeterminant(double matrix[3][3]) {
 void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorMatrix[2][2]) {
   int count = 0;
   for (int i = 0; i < 3; i++) {
+    fo
