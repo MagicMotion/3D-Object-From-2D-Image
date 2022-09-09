@@ -161,3 +161,4 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
     for (int j = 0; j < 3; j++) {
       if (count == 4) break;
       if (i != minorI && j != minorJ) {
+        mino
