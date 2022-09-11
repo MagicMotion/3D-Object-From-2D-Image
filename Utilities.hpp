@@ -162,4 +162,4 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
       if (count == 4) break;
       if (i != minorI && j != minorJ) {
         minorMatrix[0][count] = matrix[i][j];
-  
+        co
