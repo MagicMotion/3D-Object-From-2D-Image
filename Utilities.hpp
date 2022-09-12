@@ -164,3 +164,5 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
         minorMatrix[0][count] = matrix[i][j];
         count++;
       }
+    }
+  
