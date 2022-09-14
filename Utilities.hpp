@@ -168,4 +168,4 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
   }
 }
 
-void getMatrixOfMinors(double matrix[3][3], do
+void getMatrixOfMinors(double matrix[3][3], doubl
