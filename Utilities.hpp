@@ -169,3 +169,4 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
 }
 
 void getMatrixOfMinors(double matrix[3][3], double minors[3][3]) {
+  auto minor
