@@ -171,4 +171,4 @@ void getMinorMatrixAt(int minorI, int minorJ, double matrix[3][3], double minorM
 void getMatrixOfMinors(double matrix[3][3], double minors[3][3]) {
   auto minorMatrix = new double[2][2];
   for (int i = 0; i < 3; i++) {
-    for (int 
+    for (int j = 0; j < 3; 
