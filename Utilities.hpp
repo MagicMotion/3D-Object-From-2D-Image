@@ -179,3 +179,4 @@ void getMatrixOfMinors(double matrix[3][3], double minors[3][3]) {
 }
 
 void getMatrixOfCofactors(double matrix[3][3]) {
+  for (int i 
