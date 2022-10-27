@@ -184,4 +184,4 @@ void getMatrixOfCofactors(double matrix[3][3]) {
   }
 }
 
-void swap(double matrix[3][3], in
+void swap(double matrix[3][3], int a, int b)
