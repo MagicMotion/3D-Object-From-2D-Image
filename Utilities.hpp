@@ -186,4 +186,4 @@ void getMatrixOfCofactors(double matrix[3][3]) {
 
 void swap(double matrix[3][3], int a, int b) {
   double temp = matrix[a][b];
-  m
+  matrix[a][b]
