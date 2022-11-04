@@ -190,4 +190,4 @@ void swap(double matrix[3][3], int a, int b) {
   matrix[b][a] = temp;
 }
 
-void getAdjugate(dou
+void getAdjugate(double matr
