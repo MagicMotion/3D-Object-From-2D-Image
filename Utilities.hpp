@@ -191,4 +191,5 @@ void swap(double matrix[3][3], int a, int b) {
 }
 
 void getAdjugate(double matrix[3][3]) {
-  for (int i =
+  for (int i = 0; i < 3; i++)
+    fo
