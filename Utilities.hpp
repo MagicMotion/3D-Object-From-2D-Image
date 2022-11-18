@@ -195,3 +195,5 @@ void getAdjugate(double matrix[3][3]) {
     for (int j = i; j < 3; j++)
       if (i != j) swap(matrix, i, j);
 }
+
+void getInver
