@@ -196,4 +196,5 @@ void getAdjugate(double matrix[3][3]) {
       if (i != j) swap(matrix, i, j);
 }
 
-void getInverseMatrix(double determinant, double matrix[3][3]
+void getInverseMatrix(double determinant, double matrix[3][3]) {
+  fo
