@@ -198,4 +198,4 @@ void getAdjugate(double matrix[3][3]) {
 
 void getInverseMatrix(double determinant, double matrix[3][3]) {
   for (int i = 0; i < 9; i++) {
-    matrix[0][i] 
+    matrix[0][i] /= deter
