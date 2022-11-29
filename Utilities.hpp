@@ -202,4 +202,4 @@ void getInverseMatrix(double determinant, double matrix[3][3]) {
   }
 }
 
-void markBlackWithWhiteCircle(Mat &image, int 
+void markBlackWithWhiteCircle(Mat &image, int row, int co
