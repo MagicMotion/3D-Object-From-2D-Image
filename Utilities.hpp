@@ -203,4 +203,4 @@ void getInverseMatrix(double determinant, double matrix[3][3]) {
 }
 
 void markBlackWithWhiteCircle(Mat &image, int row, int col) {
-  image.at<uchar>(ro
+  image.at<uchar>(row, col) =
