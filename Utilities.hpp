@@ -207,4 +207,6 @@ void markBlackWithWhiteCircle(Mat &image, int row, int col) {
   image.at<uchar>(row-1, col) = 255;
   image.at<uchar>(row, col+1) = 255;
   image.at<uchar>(row+1, col) = 255;
-  image.at<uchar>(row, c
+  image.at<uchar>(row, col-1) = 255;
+}
+
