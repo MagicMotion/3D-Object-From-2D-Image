@@ -210,4 +210,4 @@ void markBlackWithWhiteCircle(Mat &image, int row, int col) {
   image.at<uchar>(row, col-1) = 255;
 }
 
-void fillIntensityMatrix(double matrix[3], vector
+void fillIntensityMatrix(double matrix[3], vector<Mat> images, i
