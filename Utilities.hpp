@@ -211,4 +211,4 @@ void markBlackWithWhiteCircle(Mat &image, int row, int col) {
 }
 
 void fillIntensityMatrix(double matrix[3], vector<Mat> images, int row, int col) {
-  for (int i = 
+  for (int i = 0; i < 3; 
