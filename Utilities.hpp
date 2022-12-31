@@ -215,4 +215,4 @@ void fillIntensityMatrix(double matrix[3], vector<Mat> images, int row, int col)
     matrix[i] = images[i].at<uchar>(row, col);
 }
 
-void getNormal(Point3d &normal, d
+void getNormal(Point3d &normal, double inve
