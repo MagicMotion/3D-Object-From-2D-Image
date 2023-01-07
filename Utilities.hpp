@@ -217,4 +217,4 @@ void fillIntensityMatrix(double matrix[3], vector<Mat> images, int row, int col)
 
 void getNormal(Point3d &normal, double inverseMatrix[3][3], double intensityMatrix[3]) {
   normal.x = inverseMatrix[0][0]*intensityMatrix[0] +
-             inver
+             inverseMatrix
