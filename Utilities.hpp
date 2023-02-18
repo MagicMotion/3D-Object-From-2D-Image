@@ -224,4 +224,4 @@ void getNormal(Point3d &normal, double inverseMatrix[3][3], double intensityMatr
              inverseMatrix[1][2]*intensityMatrix[2];
   normal.z = inverseMatrix[2][0]*intensityMatrix[0] +
              inverseMatrix[2][1]*intensityMatrix[1] +
-             inver
+             inverseMat
