@@ -229,4 +229,4 @@ void getNormal(Point3d &normal, double inverseMatrix[3][3], double intensityMatr
   double length = sqrt(pow(normal.x, 2) + pow(normal.y, 2) + pow(normal.z, 2));
   normal.x /= length;
   normal.y /= length;
-  normal.
+  normal.z /= length
