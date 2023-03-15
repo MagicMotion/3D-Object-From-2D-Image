@@ -232,4 +232,5 @@ void getNormal(Point3d &normal, double inverseMatrix[3][3], double intensityMatr
   normal.z /= length;
 }
 
-double getAlbedo(Point3d &normal, double inverseMatrix[3][3], double intensityMat
+double getAlbedo(Point3d &normal, double inverseMatrix[3][3], double intensityMatrix[3]) {
+  nor
