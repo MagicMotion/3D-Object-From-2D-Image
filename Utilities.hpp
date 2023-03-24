@@ -234,4 +234,4 @@ void getNormal(Point3d &normal, double inverseMatrix[3][3], double intensityMatr
 
 double getAlbedo(Point3d &normal, double inverseMatrix[3][3], double intensityMatrix[3]) {
   normal.x = inverseMatrix[0][0]*intensityMatrix[0] +
-             inverseMatrix[0][1]*intensi
+             inverseMatrix[0][1]*intensityMatr
