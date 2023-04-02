@@ -237,4 +237,4 @@ double getAlbedo(Point3d &normal, double inverseMatrix[3][3], double intensityMa
              inverseMatrix[0][1]*intensityMatrix[1] +
              inverseMatrix[0][2]*intensityMatrix[2];
   normal.y = inverseMatrix[1][0]*intensityMatrix[0] +
-             invers
+             inverseMatrix[
