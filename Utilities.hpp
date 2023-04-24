@@ -243,4 +243,4 @@ double getAlbedo(Point3d &normal, double inverseMatrix[3][3], double intensityMa
              inverseMatrix[2][1]*intensityMatrix[1] +
              inverseMatrix[2][2]*intensityMatrix[2];
 
-  do
+  double length
