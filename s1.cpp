@@ -28,3 +28,16 @@ int main(int argc, char *argv[]) {
   Point top = TRBLArray[0];
   Point right = TRBLArray[1];
   Point bot = TRBLArray[2];
+  Point left = TRBLArray[3];
+
+  // Center row == avg(right_row, left_row)
+  int center_row = (right.x + left.x) / 2;
+  // Center col == avg(top_col, bot_col)
+  int center_col = (top.y + bot.y) / 2;
+  // radius == avg(diameters) / 2
+  int verticalDiameter = sqrt(pow(top.x - bot.x, 2) + pow(top.y - bot.y, 2));
+  int horizontalDiameter = sqrt(pow(left.x - right.x, 2) + pow(left.y - right.y, 2));
+  int radius = (verticalDiameter + horizontalDiameter) / 2 / 2;
+
+  namedWindow("Original Image", WINDOW_AUTOSIZE);
+  namedWindow("Binary Image", WINDOW_AUTOSIZE);
