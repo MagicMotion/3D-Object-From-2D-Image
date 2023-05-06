@@ -41,3 +41,14 @@ int main(int argc, char *argv[]) {
 
   namedWindow("Original Image", WINDOW_AUTOSIZE);
   namedWindow("Binary Image", WINDOW_AUTOSIZE);
+
+  imshow("Original Image", image);
+  imshow("Binary Image", binaryImage);
+
+  waitKey(0);
+
+  parametersFile << center_row << " " << center_col << " " << radius << endl;
+  parametersFile.close();
+
+  return 0;
+}
