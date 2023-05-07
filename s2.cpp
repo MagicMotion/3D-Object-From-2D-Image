@@ -23,3 +23,11 @@ int main(int argc, char *argv[]) {
   for (auto imageName : imageFiles) {
     Mat image = imread(imageName, CV_LOAD_IMAGE_GRAYSCALE);
     if (!imageValidityCheck(image)) return -1;
+    CV_Assert(image.depth() == CV_8U);
+
+    Point lightSource = getBrightestPoint(image);
+    int brightness = image.at<uchar>(lightSource.x, lightSource.y);
+    double p = -getP(lightSource.x - center_row, lightSource.y - center_col, radius);
+    double q = -getQ(lightSource.x - center_row, lightSource.y - center_col, radius);
+    Point3d normal = getNormal(p, q);
+    scaleNormalWithBrightness(normal, brightness);
