@@ -31,3 +31,11 @@ int main(int argc, char *argv[]) {
     double q = -getQ(lightSource.x - center_row, lightSource.y - center_col, radius);
     Point3d normal = getNormal(p, q);
     scaleNormalWithBrightness(normal, brightness);
+
+    directionsFile << normal.x << " " << normal.y << " " << normal.z << endl;
+  }
+
+  directionsFile.close();
+
+  return 0;
+}
