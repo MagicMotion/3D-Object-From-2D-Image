@@ -22,3 +22,17 @@ int main(int argc, char *argv[]) {
   int threshold = atoi(argv[6]);
 
   auto sourceMatrix = new double[3][3];
+  auto inverseMatrix = new double[3][3];
+  fillSourceMatrix(sourceMatrix, directionsFile);
+
+  double sourceDeterminant = getDeterminant(sourceMatrix);
+  getMatrixOfMinors(sourceMatrix, inverseMatrix);
+  getMatrixOfCofactors(inverseMatrix);
+  getAdjugate(inverseMatrix);
+  getInverseMatrix(sourceDeterminant, inverseMatrix);
+
+  vector<Mat> images;
+  for (auto imageName : imageFiles) {
+    Mat image = imread(imageName, CV_LOAD_IMAGE_GRAYSCALE);
+    if (!imageValidityCheck(image)) return -1;
+    CV_Assert(image.depth() == CV_8U);
