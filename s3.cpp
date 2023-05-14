@@ -36,3 +36,16 @@ int main(int argc, char *argv[]) {
     Mat image = imread(imageName, CV_LOAD_IMAGE_GRAYSCALE);
     if (!imageValidityCheck(image)) return -1;
     CV_Assert(image.depth() == CV_8U);
+    images.push_back(image);
+  }
+
+  Mat needleImage = images[0].clone();
+  auto intensityMatrix = new double[3];
+  Point3d normal;
+
+  for (int r = NEEDLE_LENGTH; r < needleImage.rows - NEEDLE_LENGTH; r += step) {
+    for (int c = NEEDLE_LENGTH; c < needleImage.cols - NEEDLE_LENGTH; c += step) {
+      bool inAll3 = true;
+      for (auto image : images)
+        if (image.at<uchar>(r, c) < threshold) inAll3 = false;
+      if (!inAll3) continue;
