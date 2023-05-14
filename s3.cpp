@@ -49,3 +49,13 @@ int main(int argc, char *argv[]) {
       for (auto image : images)
         if (image.at<uchar>(r, c) < threshold) inAll3 = false;
       if (!inAll3) continue;
+      fillIntensityMatrix(intensityMatrix, images, r, c);
+      getNormal(normal, inverseMatrix, intensityMatrix);
+      double newR = r + normal.x * NEEDLE_LENGTH;
+      double newC = c + normal.y * NEEDLE_LENGTH;
+      line(needleImage, Point(c, r), Point(newC, newR), 255);
+      markBlackWithWhiteCircle(needleImage, r, c);
+    }
+  }
+
+  namedWindow("Original Image", WINDOW_AUTOSIZE);
