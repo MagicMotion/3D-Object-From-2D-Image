@@ -59,3 +59,15 @@ int main(int argc, char *argv[]) {
   }
 
   namedWindow("Original Image", WINDOW_AUTOSIZE);
+  namedWindow("Needle Image", WINDOW_AUTOSIZE);
+
+  imshow("Original Image", images[0]);
+  imshow("Needle Image", needleImage);
+
+  waitKey(0);
+
+  vector<int> params = { CV_IMWRITE_PXM_BINARY };
+  imwrite(argv[7], needleImage, params);
+
+  return 0;
+}
