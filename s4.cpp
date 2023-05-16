@@ -31,3 +31,15 @@ int main(int argc, char *argv[]) {
   vector<Mat> images;
   for (auto imageName : imageFiles) {
     Mat image = imread(imageName, CV_LOAD_IMAGE_GRAYSCALE);
+    if (!imageValidityCheck(image)) return -1;
+    CV_Assert(image.depth() == CV_8U);
+    images.push_back(image);
+  }
+
+  Mat albedoImage = images[0].clone();
+  auto intensityMatrix = new double[3];
+  Point3d normal;
+
+  for (int r = 0; r < albedoImage.rows; r++) {
+    for (int c = 0; c < albedoImage.cols; c++) {
+      bool inAll3 = true;
