@@ -43,3 +43,18 @@ int main(int argc, char *argv[]) {
   for (int r = 0; r < albedoImage.rows; r++) {
     for (int c = 0; c < albedoImage.cols; c++) {
       bool inAll3 = true;
+      for (auto image : images)
+        if (image.at<uchar>(r, c) < threshold) inAll3 = false;
+      if (!inAll3) {
+        albedoImage.at<uchar>(r, c) = 0;
+        continue;
+      }
+      fillIntensityMatrix(intensityMatrix, images, r, c);
+      double albedo = getAlbedo(normal, inverseMatrix, intensityMatrix);
+      cout << albedo << endl;
+      albedoImage.at<uchar>(r, c) = albedoImage.at<uchar>(r,c)/2 * albedo;
+    }
+  }
+
+  namedWindow("Original Image", WINDOW_AUTOSIZE);
+  namedWindow("Albedo Image", WINDOW_AUTOSIZE);
