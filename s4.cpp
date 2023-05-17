@@ -58,3 +58,10 @@ int main(int argc, char *argv[]) {
 
   namedWindow("Original Image", WINDOW_AUTOSIZE);
   namedWindow("Albedo Image", WINDOW_AUTOSIZE);
+
+  imshow("Original Image", images[0]);
+  imshow("Albedo Image", albedoImage);
+
+  waitKey(0);
+
+  vector<int> params = { CV_IMWRITE_PXM_BINARY };
