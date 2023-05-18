@@ -6,3 +6,17 @@
 A key assumption used here is that the surfaces of the objects are purely *Lambertian*.
 
 ## S1
+
+This program will locate the sphere in question, while also computing its center and radius. The sphere image used is `sphere0.pgm`.
+
+![s1]
+
+## S2
+
+This program will compute the direction of the light source hitting the sphere. This will be computed for sphere `sphere1`, `sphere2`, and `sphere3`. The goal is to use these normals for the actual `object.pgm` images, which are placed in the same location and under the same lighting conditions.
+
+![s2a]
+
+![s2b]
+
+## S3
