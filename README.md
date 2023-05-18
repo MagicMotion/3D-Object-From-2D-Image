@@ -20,3 +20,13 @@ This program will compute the direction of the light source hitting the sphere. 
 ![s2b]
 
 ## S3
+
+Now that we have the normals for the directions of the light source, we can compute the normals for all points on the object. However, we will only compute the normal for the points which are visible on all three of the `object.pgm` images. The result of this program can actually output a visual representation of the object in 3D using something called a `needle map` as shown below.
+
+![s3]
+
+## S4
+
+In addition to the `needle map`, we can also compute something called the `albedo map`. The albedo actually gives us information about the surface of the object at that point. Here's the albedo map of the object:
+
+![s4]
