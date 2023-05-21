@@ -30,3 +30,13 @@ Now that we have the normals for the directions of the light source, we can comp
 In addition to the `needle map`, we can also compute something called the `albedo map`. The albedo actually gives us information about the surface of the object at that point. Here's the albedo map of the object:
 
 ![s4]
+
+# Program Execution
+
+`./s1 <input original image> <input threshold> <output parameters file>`
+
+  - threshold: 90
+
+`./s2 <input parameters file> <image 1> <image 2> <image 3> <output directions file>`
+
+#### Formulas in S2
