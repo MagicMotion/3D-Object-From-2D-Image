@@ -47,3 +47,11 @@ In addition to the `needle map`, we can also compute something called the `albed
     p = dz/dx = -x / sqrt(r^2 - (x^2 + y^2))
     q = dz/dy = -y / sqrt(r^2 - (x^2 + y^2))
     n = (p,q,1) / sqrt(p^2 + q^2 + 1)
+
+`./s3 <input directions> <image 1> <image 2> <image 3> <step> <threshold> <output>`
+
+  - step: 10
+  - threshold: 100
+
+`./s4 <input directions> <image 1> <image 2> <image 3> <threshold> <output>`
+  - threshold: 85
