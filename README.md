@@ -40,3 +40,10 @@ In addition to the `needle map`, we can also compute something called the `albed
 `./s2 <input parameters file> <image 1> <image 2> <image 3> <output directions file>`
 
 #### Formulas in S2
+
+    Sphere:
+      x^2 + y^2 + z^2 = r^2
+      z = sqrt(r^2 - (x^2 + y^2))
+    p = dz/dx = -x / sqrt(r^2 - (x^2 + y^2))
+    q = dz/dy = -y / sqrt(r^2 - (x^2 + y^2))
+    n = (p,q,1) / sqrt(p^2 + q^2 + 1)
